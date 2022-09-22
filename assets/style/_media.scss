@@ -1,0 +1,813 @@
+@media(max-width: 1024px){
+    .start-page{
+        &--cards{
+            margin: 0 100px;
+        }
+    }
+    .courses-page{
+        &--bottom{
+            padding: 0 20px;
+            &--left{
+                width: 100%;
+            }
+            &--middle{
+                width: 100%;
+            }
+            &--right{
+                width: 100%;
+            }
+        }
+    }
+    .reviews-page{
+        height: 700px;
+        &--cards{
+            margin: 50px 100px;
+        }
+    }
+    
+    .team-page{
+        &--cards{
+            &--left{
+                width: 100%;
+                height: 300px;
+            }
+        }
+    }
+    
+    .registration-page{
+        height: 725px;
+        &--bottom{
+            top: 570px;
+            height: 155px;
+            &--left{
+                margin-top: 30px;
+            width: 70%;
+            margin-left: 90px;
+            }
+            &--right{
+                margin-top: 30px;
+                width: 70%;
+                margin-left: 200px;
+            }
+        }
+    }
+    .footer-boxes{
+        &--middle{
+            
+            padding: 0 20px;
+            &--fifth{
+                margin-left: 0;
+                margin-right: 100px;
+            } 
+            &--second{
+                margin-right: 40px;
+            }
+            &--third{
+                margin-left: 40px;
+            }
+            &--forth{
+                margin-right: 40px;
+            }
+        }
+        &--bottom{
+            margin-top: 90px;
+            p{
+                padding-left: 270px;
+            }
+        }
+    }
+
+}
+@media(max-width: 768px){
+    .header-basic{
+        h3{
+            margin-left: 125px;
+        }
+       
+        nav{
+            margin-top: 10px;
+            .nav-left{
+                margin-right: 80px;
+            }
+            .nav-right{
+                margin-right: 10px;
+            }
+            ul{
+                display: none;
+            }
+        }
+    }
+    .start-page{
+        &--form{
+            width: 63%;
+        }
+        &--cards{
+            &--paragraph{
+                margin-right: 50px;
+                h1{
+                    width: 120%;
+                }
+                h4{
+                    width: 100%;
+                }
+                &--button{
+                    &--right{
+                        width: 185px;
+                        margin-left: 0;
+                        margin-top: 15px;
+                    }
+                }
+
+            }
+         
+        }
+    }
+    .courses-page{
+        height: 650px;
+        h2{
+            margin-top: 0;
+        }
+        &--bottom{
+            gap: 10px;
+            padding:0 20px ;
+            &--left{
+                width: 100%;
+                height: auto;
+                &--info{
+                    height: auto;
+                }
+
+            }
+            &--middle{
+                width: 100%;
+                height: auto;
+                &--info{
+                    height: auto;
+                }
+                &--top{
+                    figure{
+                        margin-right: 8px;
+                    }
+                }
+            }
+            &--right{
+                width: 100%;
+                height: auto;
+                &--info{
+                    height: auto;
+                }
+            }
+        }
+    }
+    .service-page{
+        height: 720px;
+        &--top{
+            h2{
+                width: 53%;
+            }
+            p{
+                width: 40%;
+            }
+        }
+        &--bottom{
+            height: 342px;
+        }
+    }
+    .reviews-page{
+        h2{
+            margin-top: 50px;
+        }
+        p{
+            width: 40%;
+        }
+        &--cards{
+            gap: 10px;
+            margin:40px 10px ;
+        }
+    }
+    .team-page{
+        &--top{
+            p{
+                width: 40%;
+            }
+        }
+        &--cards{
+            gap: 10px;
+            margin-top: 20px;
+            &--left{
+                width: 100%;
+            }
+            &--middle{
+                width: 31%;
+            }
+            &--right{
+                width: 31%;
+            }
+        }
+    }
+    .registration-page{
+        height: 590px;
+        &--form{
+            top: 10px;
+            left: 20px;
+            button{
+                margin-top: 15px;
+            }
+        }
+        &--bottom{
+            top: 435px;
+        &--left{
+            margin-top: 15px;
+            width: 100%;
+            margin-left: 55px;
+        }
+        &--right{
+            margin-top: 25px;
+            width: 100%;
+            margin-left:100px ;
+        }
+            
+        }
+    }
+.footer-boxes{
+    &--top{
+        &--left{
+            margin: 40px 0 0 20px;
+            
+        }
+        &--right{
+            margin: 40px 20px 0 0;
+        }
+    }
+    &--middle{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin-top: 50px;
+        
+        &--first{
+            margin-left: 20px;
+        }
+        &--third{
+            margin-left: 0;
+        }
+        &--forth{
+            margin-left: 20px;
+            margin-top: 35px;
+        }
+        &--fifth{
+            margin-left: 0px;
+            margin-top: 35px;
+            button{
+                width: 15%;
+            }
+        }
+    }
+    &--bottom{
+        p{
+            padding-left: 220px;
+        }
+    }
+  
+}
+
+}
+@media(max-width: 480px){
+    header{
+        width: 100%;
+    }
+    .header-basic{
+        margin-top: 35px;
+        .menu-bar {
+            height: 600px;
+            ul{
+            li{
+                margin-top: 50px;
+            }
+        }
+
+        }
+        nav{
+            gap: 20px;
+        }
+        
+        h3{
+            margin-left: 35px;
+            margin-top: 10px;
+        }
+  nav{
+    .nav-left{
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .nav-right{
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 165px;
+        gap: 30px!important;
+        a{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400!important ;
+            font-size: 40px!important;
+            line-height: 45px!important ;
+            text-align: center;
+            letter-spacing: 0.2px!important ;
+       
+            
+        }
+    }
+  }
+
+
+    } 
+    .start-page{
+        height: 1500px;
+        figure{
+            img{
+                top: 100px;
+            }
+        }
+        &--cards{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+        &--paragraph{
+            margin-left: 65px;
+            h1{
+                margin:0 45px;
+                width: 80%;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 57px;
+                text-align: center;
+                letter-spacing: 0.2px;
+
+            }
+            h4{
+                width: 70%;
+                margin: 35px 75px;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: center;
+                letter-spacing: 0.2px;
+            }
+            &--button{
+                margin-left: 95px;
+                &--left{
+                    margin-top: 30px;
+                }
+                &--right{
+                    margin-left: 0;
+                }
+                
+            }
+        }
+       
+    }
+    &--form{
+        height: 640px;
+        margin-bottom: 60px;
+        margin-left: 25px;
+        h3{
+            margin-top: 20px;
+        }
+        button{
+            margin-top: 30px;
+        }
+    }
+   
+    }
+    .courses-page{
+        height: 1700px;
+        &--top{
+            h2{
+                width: 50%;
+                margin-top: 100px;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 57px;
+                text-align: center;
+            }
+            p{
+                width: 40%;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                letter-spacing: 0.2px;
+            }
+        }
+        &--bottom{
+            display: flex;
+            flex-direction: column;
+            margin-top: 75px;
+            gap: 30px;
+            &--left{
+                width: 100%;
+            }
+            &--middle{
+                width: 100%;
+
+            }
+            &--right{
+                width: 100%;
+            }
+        }
+    }
+    .service-page{
+        height: 950px;
+        h2{
+            margin-top: 100px;
+            width: 75%;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 57px;
+            text-align: center;
+            letter-spacing: 0.2px;
+        }
+        p{
+            width: 40%;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            margin-top: 20px;
+        }
+        &--video{
+            video{
+               width: 80%;
+               
+                margin: 60px 0 0 0 ;
+            }
+        }
+        &--bottom{
+            height: 410px;
+            top: 540px;
+
+        }
+    }
+    .reviews-page{
+        height: 1325px;
+        h2{
+            margin-top: 75px;
+            width: 45%;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 57px;
+            text-align: center;
+            letter-spacing: 0.2px;
+        }
+        p{
+            width: 40%;
+        }
+        &--cards{
+            margin-bottom: 100px;
+            gap: 30px;
+            display: flex;
+            flex-direction: column;
+            &--left{
+                width: 80%;
+            }
+      
+
+        }
+    }
+    .team-page{
+        height: 1200px;
+        padding: 40px;
+        &--top{
+            h2{
+                margin-top: 75px;
+                width: 60%;
+
+            }
+            p{
+                width: 45%;
+            }
+        }
+        &--cards{
+            
+            margin-top: 45px;
+            gap: 30px;
+            &--left{
+                width: 100%;
+                height: 300px;
+                margin-top: 100px;
+            }
+            &--middle{
+                width: 80%;
+            }
+            &--right{
+                width: 80%;
+            }
+        }
+    }
+    .registration-page{
+        height: 1140px;
+        h2{
+            width: 80%;
+            margin-bottom: 40px;
+        }
+        figure{
+            height: 900px;
+            img{
+                height: 900px;
+                object-fit: cover;
+            }
+        }
+        &--form{
+            padding:0  60px;
+            margin-top: 115px;
+            width: 95%;
+            &--top{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                input{
+                    width:100%;
+                }
+                &--right{
+                    margin-left: 0;
+                    margin-top: 20px;
+                }
+            }
+            &--bottom{
+                width: 100%;
+                display: flex;
+                
+                flex-direction: column;
+                &--right{
+                    margin-left: 0;
+                    margin-top: 20px;
+                }
+            }
+            textarea{
+                width: 100%;
+               
+            }
+            button{
+                width: 75%;
+                margin-top: 40px;
+            }
+        }
+        &--bottom{
+            display: flex;
+            
+            flex-direction: column;
+            height: 300px;
+            width: 100%;
+            top: 800px;
+            margin-top: 40px;
+            &--left{
+                margin-left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            
+            h3{
+                width: 55%;
+                text-align: center;
+            }
+            p{
+                width: 32%;
+               text-align: center;
+               margin-right: 0px;
+            }
+        }
+        &--right{
+            margin-left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        }
+    }
+    .footer-boxes{
+        height: auto;
+        &--top{
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            margin-left: 50px;
+        }
+        &--middle{
+            gap: 30px;
+           margin-top: 110px;
+            margin-left: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            &--first{
+                margin-right: 0;
+                margin-left: 0;
+            }
+            &--third{
+                margin-left: 0;
+            }
+            &--forth{
+                margin-left: 0;
+            }
+            &--fifth{
+                margin-left: 0;
+                margin-top: 30px;
+                button{
+                    width: 30%;
+                }
+            }
+
+
+
+        }
+        &--bottom{
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p{
+                margin-top:  25px ;
+                padding-left: 10px;
+                text-align: center;
+                width:80% ;
+            }
+        }
+    }
+}
+@media(max-width: 360px){
+    .header-basic{
+        .menu-bar {
+            height: 1580px;
+           
+            ul{
+                padding: 0 30px;
+            li{
+                margin-top: 100px;
+            }
+        }
+         .menushow{
+            top: 0!important;
+        }
+
+        }
+        nav{
+            ul{
+                display: none!important;
+            }
+        }
+    } 
+    .start-page{
+        height: 1600px;
+        figure{
+            img{
+                top: -100px;
+            }
+        }
+        &--cards{
+            &--paragraph{
+                margin-left: 0;
+                h1{
+                    margin: 0 65px;
+                }
+                h4{
+                    margin: 20px 80px;
+                }
+                &--button{
+                    margin-left: 95px;
+                }
+            }
+        }
+        &--form{
+            margin-left: 20px;
+            height: 680px;
+            margin-bottom: 80px;
+        }
+    }
+    .courses-page{
+        height: 1800px;
+        p{
+            width: 50%;
+            margin-top: 20px;
+        }
+        &--bottom{
+            &--left{
+                width: 100%;
+            } 
+            &--middle{
+                width: 100%;
+            }
+            &--right{
+                width: 100%;
+            }
+
+        }
+    }
+    .service-page{
+        height: 900px;
+        h2{
+            width: 100%;
+        }
+        p{
+            width: 90%;
+        }
+        &--video{
+            video{
+                width: 85%;
+               
+                margin: 120px 0  0 0;
+            }
+            &--button{
+                width: 23%;
+                
+            }
+        }
+        &--bottom{
+            height: 360px;
+        }
+
+    }
+    .team-page{
+        height: 900px;
+        h2{
+            width: 70%;
+        }
+        p{
+            width: 70%;
+        }
+        &--cards{
+            &--left{
+                width: 100%;
+            }
+            &--middle{
+                width: 100%;
+            }
+            &--right{
+                width:100% ;
+            }
+        }
+    }
+    .registration-page{
+        height: 1140px;
+        form{
+            width: 100%;
+         
+    }
+    &--form{
+        width: 90%;
+        margin-top: 115px;
+      
+        h2{
+            margin-bottom: 40px;
+            width: 90%;
+        }
+        button{
+            margin-top: 40px;
+            font-size: 16px;
+        }
+    }
+    &--bottom{
+        margin-top: 40px;
+        &--left{
+            h3{
+                width: 57%;
+                text-align: left;
+                margin-left: 40px;
+
+            }
+            p{
+                width: 43%;
+                text-align: left;
+            }
+        }
+        &--right{
+            button{
+                width: 47%;
+            }
+        }
+        button{
+            margin-bottom: 40px;
+        }
+    }
+}
+.footer-boxes{
+    &--bottom{
+        p{
+
+        
+        margin-top: 0;
+    }
+    }
+}
+}

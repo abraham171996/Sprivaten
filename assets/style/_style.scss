@@ -1,0 +1,28 @@
+@import 'mixin';
+@import 'variable';
+@import 'header';
+@import 'footer';
+@import 'media';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+ul{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+

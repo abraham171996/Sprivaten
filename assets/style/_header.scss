@@ -1,0 +1,196 @@
+.header-basic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+     h3{
+         margin-left: 195px;
+         font-family: 'Montserrat';
+           font-style: normal;
+           font-weight: 700;
+           font-size: 24px;
+           line-height: 32px;
+           letter-spacing: 0.1px;
+           cursor: pointer;
+     }
+     nav{
+         display: flex;
+         justify-content: space-between;
+         .nav-left{
+           display: flex;
+           justify-content: space-between;
+           margin-right: 140px;
+           .shearch-button{
+                       
+               .input{
+                   width: 100px;
+                   height: 20px;
+                   border-radius: 10px;
+                   margin-top: 5px;
+                   display: none;
+   
+                   
+               }
+               .shearch{
+                   display: block;
+                   z-index: 0;
+               }
+               .rest{
+                   display: none;
+               }
+               .active{
+                   width: 200px;
+                   height: 50px;
+                   border-radius: 10px;
+                   margin-top: 0px;
+                   display: block;
+                   right: 260px;
+                   border: none;
+                   outline: none;
+                   padding: 20px;
+                   font-size: 18px;
+                   top: 30px;
+                   z-index: -1;
+   
+   
+               }
+           }
+           button{
+               margin-left: 40px;
+               height: 15.999601364135742px;
+               width: 16px;
+               background-color: transparent;
+      
+               
+               input{
+                   position: absolute;
+                   width: 0px;
+                   height: 0px;
+                   z-index: 0;
+                   top: 41px;
+                   right: 200px;
+                   border: 0;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                 
+               }
+             
+               img{
+   
+   
+               
+               &:hover{
+                transform: scale(1.3)  
+               }
+           }
+      
+           
+         }
+         ul{
+           display: flex;
+           justify-content: space-between;
+           gap: 20px;
+           a{
+               display: block;
+               position: relative;
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 600;
+               font-size: 14px;
+               line-height: 24px;
+               text-align: center;
+               letter-spacing: 0.2px;
+               color: #737373;
+               &::after{
+                   content: "";
+                   position: absolute;
+                   background-color: #FFA62B;
+                   height: 3px;
+                   width: 0;
+                   left: 0;
+                   bottom: -10px;
+                   transition: 1s;
+                 
+               }
+               &:hover{
+                   
+                   color: black;
+                  transform: scale(1.3);
+                   
+               }
+               
+               &:hover::after{
+                   width: 100%;
+                   
+               }
+               
+           
+           }
+         
+         }
+         .remove{
+             display: none;
+         }
+         
+     }
+     .nav-right{
+       margin-right: 60px;
+       cursor: pointer;
+       figure{
+           img{
+            position: relative;
+           }
+           .exit{
+               display: none;
+           }
+           .fa-window-close{
+                position: absolute;
+                right: 40px;
+                z-index: 2000;
+                display: none;
+                  
+           }
+           .fa {
+               display: block;
+               z-index: 2000;
+           }
+       }
+   }
+   
+     
+   }
+   .menu-bar{
+       position: absolute;
+       top: -1580px;
+       left: 0;
+       width: 100%;
+       height: 1000px;
+       background-color: #FFA62B;
+       z-index: 1000;
+       transition: 2s;
+       ul{
+           padding:0 100px;
+           li{
+               margin-top:100px;
+               font-family: 'Montserrat';
+                   font-style: normal;
+                   font-weight: 800;
+                   font-size: 58px;
+                   line-height: 80px;
+                   letter-spacing: 0.2px;
+                   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                   border-radius: 10px;
+                   padding-left: 20px;
+                   &:hover{
+                       transform: scale(1.1);
+                   }
+           }
+       }
+   
+       
+   }
+   .menushow{
+       top: 0;
+   }
+   }
+   
